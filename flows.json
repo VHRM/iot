@@ -1,0 +1,45 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "71760652c7a93f7f",
+        "type": "rpi-gpio in",
+        "z": "f6f2187d.f17ca8",
+        "name": "PIR",
+        "pin": "14",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "6590e97cd6a0eb0b"
+            ]
+        ],
+        "info": "PIR Sensor"
+    },
+    {
+        "id": "6590e97cd6a0eb0b",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "Test",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 240,
+        "wires": []
+    }
+]
